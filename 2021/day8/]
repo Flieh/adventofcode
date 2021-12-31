@@ -1,0 +1,27 @@
+""" aoc 2021 dayx """
+
+
+def fetch():
+    """ get input data """
+    with open('testdata.txt') as file:
+        # with open('data.txt') as file:
+        init_data = file.read().split('\n')
+    init_data.pop()
+    for line in init_data:
+        print(line)
+    return init_data
+
+
+def part_one():
+    data = fetch()
+    print(data)
+
+
+def part_two():
+    data = fetch()
+    print('unsolved')
+
+
+if __name__ == "__main__":
+    part_one()
+    part_two()
