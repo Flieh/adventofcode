@@ -1,10 +1,11 @@
 """ aoc 2021 dayx """
 import os
+from time import perf_counter as timer
 
 
 def fetch():
     """ get input data """
-    with open('data.txt') as file:
+    with open('test3data.txt') as file:
         init_data = file.read().split('\n')
     init_data.pop()
     connections = {}
@@ -65,6 +66,7 @@ def part_two():
 
 # hello 
 if __name__ == "__main__":
+    start_time = timer()
     os.system('clear')
     print()
     print('part one')
@@ -74,3 +76,4 @@ if __name__ == "__main__":
     print('part two')
     print('***************')
     print(part_two())
+    print(timer() - start_time)
