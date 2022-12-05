@@ -1,4 +1,4 @@
-# import parse
+#import parse
 
 if __name__ == "__main__":
     f = open('sampledata.txt', 'r')
