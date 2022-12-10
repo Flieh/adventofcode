@@ -7,3 +7,14 @@ for line in data:
     tokens.append(line.split(' '))
 print(tokens)
 
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+dogA = Dog('Fido',5)
+
+print(dogA.name)
+
+
+
