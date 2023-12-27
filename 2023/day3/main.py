@@ -12,7 +12,7 @@ def fetch():
 
 
 def part_one():
-    breakpoint()
+    # breakpoint()
     data = fetch()
     numbers = []
     retVal = 0
