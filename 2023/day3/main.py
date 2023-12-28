@@ -12,7 +12,6 @@ def fetch():
 
 
 def part_one():
-    # breakpoint()
     data = fetch()
     numbers = []
     retVal = 0
@@ -36,6 +35,7 @@ def part_one():
     # print(symbols)
     for number in numbers:
         for symbol in symbols:
+            breakpoint()
             if (
                 int(number[1][0]) - 2 < int(symbol[1][0])
                 and int(symbol[1][0]) < int(number[1][0]) + 2
